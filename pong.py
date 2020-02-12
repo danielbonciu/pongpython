@@ -158,11 +158,7 @@ class Game:
             gameObject.update()
 
     def input(self):
-        # TODO 4 - Get input.
-        #           Use:
-        #           Paddle.moveUp()
-        #           Paddle.moveDown()
-        #           Paddle.stop()
+
         for event in pygame.event.get():
             if event.type == KEYUP:
                 if event.key == K_UP:
